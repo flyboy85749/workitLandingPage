@@ -1,4 +1,5 @@
 /***************************** Colors *******************/
+/*
 Green #44FFA1 
 Purple 900 #24053E
 Purple 500 #584D62
@@ -36,5 +37,89 @@ Manrope Bold
 18px
 150% Line Height
 0px Letter Spacing */
+body {
+  font-family: "Fraunces", serif;
+  font-size: 1 rem;
+  color: #fff;
+  max-width: max-content;
+  margin: 0 auto;
+  /* background-color: #24053e; */
+}
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #24053e;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  padding: 3.5rem 5rem 0 5rem;
+  margin-bottom: 1rem;
+}
 
+.logo {
+  margin-right: 25rem;
+}
 
+.button_secondary {
+  margin-left: 25rem;
+}
+
+.heading {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  margin-left: 8rem;
+  text-align: center;
+}
+
+.heading p {
+  margin-bottom: 30px;
+}
+
+.tailored {
+  text-decoration: underline;
+  text-decoration-color: #44ffa1;
+}
+
+.learn-more {
+  width: 162px;
+  height: 56px;
+  background-color: #44ffa1;
+  color: #24053e;
+  border: none;
+  padding: 12px 32px;
+  font-family: Manrope, serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.slinky-1 {
+  position: absolute;
+  top: 100px;
+  left: 70px;
+}
+
+.slinky-2 {
+  position: absolute;
+  top: 300px;
+  right: 130px;
+}
+.preset-1 {
+}
+.ornamental {
+}
+.actionable {
+}
+.data-driven {
+}
+.affordable {
+}
+.cta {
+}
