@@ -98,6 +98,7 @@ body {
   font-family: Manrope, serif;
   font-size: 18px;
   font-weight: bold;
+  margin-bottom: 2.5rem;
 }
 
 .slinky-1 {
@@ -110,6 +111,12 @@ body {
   position: absolute;
   top: 300px;
   right: 130px;
+}
+
+.phone-hero {
+  height: 441px;
+  width: 767px;
+  margin-top: 30px;
 }
 .preset-1 {
 }
